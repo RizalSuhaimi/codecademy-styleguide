@@ -1,0 +1,136 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0 5%;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    border-top: 2px solid black;
+}
+
+
+/* Colors Section */
+.color-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.color-sheet {
+    width: 30%; /* Fixed width for all panels */
+    margin: 10px 10px;
+    box-sizing: border-box; /* To ensure padding and borders are included in width */
+    min-width: 200px; /* To prevent panels from getting too narrow on small screens */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.panel {
+    width: 48%;
+    min-width: 200px;
+    height: 150px;
+}
+
+.panel.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel.display.white {
+    background-color: #e3e3e3;
+}
+
+.panel.display.gray {
+    background-color: #9FA5A6;
+}
+
+.panel.display.terracotta {
+    background-color: #BF7763;
+}
+
+.panel.display.orange {
+    background-color: #F5832C;
+}
+
+.panel.display.sand {
+    background-color: #F9CE8C;
+}
+
+.panel.codes {
+    align-content: center;
+}
+
+.panel.codes p,
+.panel.codes li {
+    padding-left: 10px;
+}
+
+
+/* Fonts Section */
+.font-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.font-sheet {
+    width: 45%; /* Fixed width for all panels */
+    margin: 10px 10px;
+    box-sizing: border-box; /* To ensure padding and borders are included in width */
+}
+
+.font-sheet.montserrat {
+    font-family: Montserrat, monospace, sans-serif;
+}
+
+.font-sheet.poppins {
+    font-family: Poppins, sans-serif;
+}
+
+.font-sheet h3 {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* Styles Section */
+.style-h1 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.style-h2 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.style-h3 {
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.style-p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
